@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PS4 Library</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><div class="brand-mark">P</div><div><strong>PS4 LIBRARY</strong><small>SEU HUB DE JOGOS</small></div></div>
+      <div class="side-label">MENU PRINCIPAL</div>
+      <button class="nav-item active" data-page="store"><span>▦</span> Loja</button>
+      <button class="nav-item" data-page="library"><span>▣</span> Biblioteca</button>
+      <button class="nav-item" data-page="downloads"><span>⇩</span> Downloads <i class="dot"></i></button>
+      <div class="side-label collection-label">MINHA BIBLIOTECA</div>
+      <button class="nav-item sub" data-filter="PS4">▰ <span>Jogos de PS4</span></button>
+      <button class="nav-item sub" data-filter="PS2">▰ <span>Ports de PS2</span></button>
+      <div class="side-label collection-label">CATEGORIAS</div>
+      <div id="category-list"></div>
+      <div class="sidebar-bottom"><div class="console-mini"><span class="status-led"></span><div><b>PlayStation 4</b><small id="side-console-status">Não conectado</small></div><span class="chevron">›</span></div><small class="version">PS4 LIBRARY · V0.1.0</small></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div class="breadcrumbs" id="breadcrumbs">Início <span>/</span> Loja</div><div class="top-actions"><div class="search"><span>⌕</span><input id="search" placeholder="Buscar jogos..." /></div><button class="icon-button" title="Configurações">⚙</button><div class="avatar">U</div></div></header>
+      <section id="content" class="content"></section>
+    </main>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>

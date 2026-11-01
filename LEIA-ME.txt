@@ -1,0 +1,18 @@
+PS4 LIBRARY - VERSAO 0.1.0
+
+COMO ABRIR
+1. Extraia a pasta PS4-Library para um local de sua preferencia.
+2. Entre na pasta.
+3. De dois cliques em INICIAR.bat.
+4. Na primeira vez, o programa baixa o Electron automaticamente (precisa de internet).
+5. Nas proximas vezes, basta abrir INICIAR.bat novamente.
+
+OBSERVACOES
+- Esta e uma primeira base visual e navegavel.
+- Loja, Biblioteca, categorias, busca, cards e detalhes ja funcionam como prototipo.
+- Os jogos exibidos sao apenas exemplos de catalogo; nao ha arquivos de jogos nem links de download incluidos.
+- Downloads reais, conexao GoldHEN, monitoramento do PS4 e instalacao pela rede ainda nao estao implementados.
+- Nao feche a janela do terminal enquanto o aplicativo estiver aberto.
+- Para encerrar, feche a janela do aplicativo.
+
+Se o Windows mostrar um aviso de firewall na primeira execucao, permita acesso em redes privadas.
